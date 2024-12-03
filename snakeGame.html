@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-9">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="snakeGame.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href=http://127.0.0.1:5500/front.html>Home</a>
+
+        </nav>
+    </header>
+
+    <marquee behavior="alternative" bgcolor="sky blue" direction="left" scrollamount="10" loop="10">Play snake game here .𓆙</marquee>
+    <div id="difficulty">
+        <select id="levelSelect">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+        </select>
+        <h1 id="score">Score: 0</h1>
+    </div>
+    <div>
+        <canvas id="gameCanvas" width="450" height="420"></canvas>
+    </div>
+
+    <script src="snakeGame.js"></script>
+</body>
+
+</html>
